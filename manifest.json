@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Godoc GOOS GOARCH",
   "description": "This extension makes changing GOOS and GOARCH params in godoc",
-  "version": "1.0",
+  "version": "1.1",
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "Set godoc params"

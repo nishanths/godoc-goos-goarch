@@ -20,7 +20,6 @@ var init = () => {
         e.preventDefault();
         var goos = goosSelect.value;
         var goarch = goarchSelect.value;
-        debugger;
         updateParams(goos, goarch);
         chrome.storage.local.set({
             "godoc.goos": goos,
