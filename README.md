@@ -4,7 +4,7 @@ Sets GOOS and GOARCH params suitable for godoc.
 For example, if you select `darwin` and `amd64`, then:
 
 ```
-goos=darwin&goarch=amd64
+GOOS=darwin&GOARCH=amd64
 ```
 
 is added to the current page's query string parameters.
