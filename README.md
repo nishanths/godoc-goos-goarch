@@ -9,8 +9,6 @@ goos=darwin&goarch=amd64
 
 is added to the current page's query string parameters.
 
-Works on any page, not just godoc.org.
-
 ## Usage
 
 ![screenshot](http://i.imgur.com/LOgW0J9.png)
