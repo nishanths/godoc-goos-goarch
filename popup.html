@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Godoc GOOS GOARCH</title>
+        <style>
+            body {
+                width: 150px;
+                font-size: 12px;
+                font-family: arial, sans-serif;
+            }
+            a {
+                color: blue;
+            }
+            label, input {
+                display: block;
+            }
+            label {
+                margin-top: 5px;
+            }
+            #update {
+                margin-top: 10px;
+            }
+            div {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>godoc parameters</div>
+        <form>
+            <label for="goos">GOOS</label>
+            <select name="goos">
+                <option>linux
+                <option>darwin
+                <option>android
+                <option>dragonfly
+                <option>freebsd
+                <option>netbsd
+                <option>openbsd
+                <option>plan9
+                <option>solaris
+                <option>windows
+            </select>
+            <label for="goarch">GOARCH</label>
+            <select name="goarch">
+                <option>386
+                <option>amd64
+                <option>arm
+                <option>ppc64
+                <option>ppc64le
+                <option>mips
+                <option>mipsle
+                <option>mips64
+                <option>mips64le
+            </select>
+            <input type="submit" value="Update" id="update"></input>
+        </form>
+        <script src="popup.js"></script>
+    </body>
+</html>
